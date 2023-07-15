@@ -1,0 +1,46 @@
+.ipContainer {
+  height: 40vh;
+  width: 100vw;
+  background-image: url(../../assets/background.svg);
+}
+
+#ipTitle {
+  font-size: 2.5rem;
+  color: white;
+  padding: 4vh 0;
+}
+
+#ipInput {
+  width: 30vw;
+  height: 6vh;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border: none;
+  font-size: 1.2rem;
+  padding-left: 1vw;
+}
+
+#ipInput:focus {
+  outline: none;
+}
+
+#ipInput::placeholder {
+  color: var(--gray);
+  margin-left: 2vw;
+}
+
+#ipButton {
+  width: 3vw;
+  border: none;
+  height: 6vh;
+  background-color: black;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#ipButton:hover {
+  opacity: 0.7;
+}
