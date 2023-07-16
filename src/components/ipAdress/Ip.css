@@ -44,3 +44,61 @@
 #ipButton:hover {
   opacity: 0.7;
 }
+
+@media (max-width: 1200px) {
+  #ipTitle {
+    font-size: 2rem;
+  }
+  #ipInput {
+    font-size: 0.8rem;
+  }
+  #ipButton {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  #ipTitle {
+    font-size: 1.5rem;
+  }
+  #ipInput {
+    font-size: 0.6rem;
+  }
+  #ipButton {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #ipInput {
+    width: 44vw;
+    font-size: 0.7rem;
+  }
+  #ipButton {
+    width: 6vw;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #ipTitle {
+    font-size: 1.2rem;
+  }
+  #ipInput {
+    font-size: 0.6rem;
+  }
+  #ipButton {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #ipInput {
+    font-size: 0.5rem;
+    height: 4vh;
+  }
+  #ipButton {
+    font-size: 0.5rem;
+    height: 4vh;
+  }
+}

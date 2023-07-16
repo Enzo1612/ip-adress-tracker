@@ -4,9 +4,9 @@ import Details from "./components/details/Details";
 import Ip from "./components/ipAdress/Ip";
 
 function App() {
-  const [ipAddress, setIPAddress] = useState("");
+  const [ipAddress, setIPAddress] = useState("8.8.8.8");
 
-  const handleIPChange = (newIPAddress, newLocation) => {
+  const handleIPChange = (newIPAddress) => {
     setIPAddress(newIPAddress);
   };
 

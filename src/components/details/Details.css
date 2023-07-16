@@ -40,9 +40,60 @@
 .detailVariable {
   margin-top: 1vh;
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .mapContainer {
   height: 60vh;
+}
+
+@media (max-width: 1200px) {
+  .detailVariable {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .detailVariable {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .detailsContainer {
+    width: 80vw;
+    left: 10vw;
+  }
+  .detailContainer {
+    width: 20vw;
+  }
+  .detailVariable {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .detailsContainer {
+    width: 50vw;
+    height: 40vh;
+    left: 25vw;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .detailContainer {
+    width: 50vw;
+    height: 8vh;
+    align-items: center;
+    margin-left: 0;
+  }
+  .detailContainer::after {
+    display: none;
+  }
+  .detailDefault {
+    margin-top: 0;
+    font-size: 0.8rem;
+  }
+  .detailVariable {
+    margin-top: 0.1vh;
+  }
 }
